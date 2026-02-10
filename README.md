@@ -9,3 +9,24 @@ Burnout risk classification
 Productivity vs well-being analysis
 Behavioral pattern mining
 Early burnout detection modeling
+
+
+# Employee Performance FastAPI Docker Demo
+
+This is an open-source project built using:
+- FastAPI (Backend)
+- Streamlit (Frontend)
+- Docker
+
+## Features
+- REST API using FastAPI
+- Streamlit UI
+- Dockerized setup
+
+## Run locally
+```bash
+git clone https://github.com/PankajMishra99/Employee_performance_fastapi_docker_demo.git
+cd Employee_performance_fastapi_docker_demo
+docker build -t employee-performance-app .
+docker run -p 8000:8000 -p 8501:8501 employee-performance-app
+
